@@ -1,0 +1,66 @@
+body,p,input,textarea,ul,li,ol,dl,dt,dd,form,h1,h2,h3,h4,h5,h6{margin:0;padding:0;outline:none;list-style:none;font-family:'微软雅黑',arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;}
+b,em,strong{font-weight:normal;font-style:normal;}
+img{border:0;}
+a{text-decoration:none;}
+th,td{text-decoration:none;font-weight: normal}
+
+.down{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+}
+.logo{
+    display:block;
+    width:1.79rem;
+    height:1.79rem;
+    margin:2.58rem auto 0;
+    background:url(../images/logo.png) no-repeat;
+    background-size:100% 100%;
+}
+.title{
+    color:#fff;
+    font-size:0.24rem;
+    text-align:center;
+    margin-top:0.25rem;
+}
+.trait{
+    width:4.2rem;
+    height:0.64rem;
+    background:url(../images/title.png) no-repeat center;
+    background-size:100% 100%;
+    margin:0.8rem auto 0;
+}
+.trait_con{
+    font-size:0.16rem;
+    color:#e1f0ff;
+    margin-top:0.05rem;
+    text-align:center;
+}
+.trait_con span{
+    margin:0 0.05rem;
+}
+.down_port{
+    width:4rem;
+    height:1.04rem;
+    border-radius:0.08rem;
+    margin:1.5rem auto 0;
+    border:0.03rem solid #fff;
+    background:url(../images/and.png) no-repeat 0.62rem 0.2rem;
+    background-size:0.47rem 0.59rem;
+    font-size:0.3rem;
+    text-align:center;
+    color:#fff;
+    line-height:1.04rem;
+}
+.down_port span{
+    margin-left:0.3rem;
+}
+.ios{
+    background:url(../images/ios.png) no-repeat 0.62rem 0.2rem;
+    background-size:0.47rem 0.59rem;
+    margin-top:0.35rem;
+}

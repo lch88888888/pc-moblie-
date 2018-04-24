@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cool Bit</title>
+	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- 头部 -->
+<header class="topbar">
+	<div><a href="www.baidu.com" target="_blank"></a></div>
+</header>
+<!-- 中间 -->
+<section class="main">
+    <div class="content">
+		<div class="mainbg fl">
+			<!-- 轮播 -->
+		    <div class="swiper-container">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide phone"><img src="images/3.png" alt=""></div>
+		            <div class="swiper-slide phone"><img src="images/2.png" alt=""></div>
+		            <div class="swiper-slide phone"><img src="images/1.png" alt=""></div>
+		        </div>
+		    </div>
+
+		</div>
+		<div class="main-right fr">
+			<div class="right-img "></div>
+			<div class="code"><img src="images/code.png"></div>
+			<div class="btn-icon">
+				<a href="www.baidu.com"><div class="btn btn-android"></div></a>
+				<a href="www.baidu.com"><div class="btn btn-ios"></div></a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- 尾部 -->
+<footer class="footer">双创普惠（北京）商贸有限公司技术支持</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper-3.4.2.jquery.min.js"></script>
+<script>
+                var mySwiper = new Swiper ('.swiper-container', {
+                    slidesPerView: 1,
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    paginationType:'custom',
+                    spaceBetween: 30,
+                    autoplay:2000,
+                    loop: true,
+                    nextButton: '.swiper-button-next',
+                    prevButton: '.swiper-button-prev'
+                })
+</script>
+</body>
+</html>
